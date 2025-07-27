@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #e0ebf0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nav {
+    height: 7vh;
+    width: 98%;
+    background: #fff;
+    border-radius: 0.7vw;
+    margin: 1%;
+    display: flex;
+    justify-content: space-between;
+    padding: .6vw;
+}
+
+.portfolioIcon {
+    background: none;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.portfolioIconImg {
+    height: 35px;
+    width: 35px;
+    margin-right: 10px;
+}
+
+.callBtn {
+    background: #000;
+    color: white;
+    border-radius: 32px;
+    font-size: 13px;
+    font-weight: 100;
+    padding: 8px 12px;
+    border: none;
+}
+
+.mainCrousel {
+    /* background: wheat; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-top: 50px;
+}
+
+.leftCrousel {
+    width: 44vw;
+    /* background: #a81313; */
+}
+
+.highlightedBox {
+    max-width: 175px;
+    font-size: 13px;
+    font-weight: 650;
+    padding: 2px 5px 6px 7px;
+    border-radius: 15px;
+}
+
+.availableForWork {
+    background: #c5e5ea;
+    color: #4bb6c4;
+}
+
+.leftCrousel h1 {
+    font-size: 110px;
+    font-weight: 550;
+    line-height: 95px;
+    margin-top: 25px;
+}
+
+.BreifDescription {
+    font-size: 14px;
+    color: gray;
+    margin-top: 16px;
+}
+
+.contactBtn {
+    background: #000;
+    color: white;
+    border-radius: 32px;
+    font-size: 14px;
+    font-weight: 100;
+    padding: 11px 17px;
+    margin-top: 30px;
+    border: none;
+}
+
+.rightCrousel {
+    margin-top: 25px;
+}
+
+.allboxes {
+    height: 100%;
+    width: 40vw;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: aqua; */
+}
+
+.allboxes .box1 {
+    background-image: url("images/jc8ulp3oysry6taiq8dr.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 310px;
+    width: 290px;
+    padding: 15px 0px 0px;
+    /* background: #9fdffa; */
+    border-radius: 18px;
+    position: relative;
+    overflow: hidden;
+    background-position: 0px 50px;
+}
+
+.allboxes .box1 span {
+    padding: 25px 35px 0px 20px;
+    font-weight: 550;
+    font-size: 21px;
+    background-color: white;
+    border-radius: 10px 0px;
+    box-shadow: 0px 15px 20px 18px white;
+}
+
+.allboxes .box1 p {
+    color: gray;
+    font-size: 13px;
+    padding-left: 20px;
+    margin-top: 2px;
+}
+
+.allboxes .box1 div {
+    bottom: 10px;
+    position: absolute;
+    background: rgb(221, 247, 255);
+    color: #00e1ff;
+    margin-left: 15px;
+    padding: 0px 8px 5px;
+    border-radius: 8px;
+}
+
+.allboxes .box1 div span {
+    padding: 0;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.allboxes .box2 {
+    background-image: url("images/heroprofilepic.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 310px;
+    width: 305px;
+    padding: 15px;
+    /* background: white; */
+    border-radius: 18px;
+    margin: 0px 0px 0px 10px;
+}
+
+.allboxes .box3 {
+    background: #9392F8;
+    background: linear-gradient(126deg, rgba(147, 146, 248, 1) 0%, rgba(210, 210, 247, 1) 66%, rgba(147, 146, 248, 1) 100%);
+    height: 140px;
+    width: 370px;
+    padding: 15px;
+    border-radius: 18px;
+    margin: 6px 0px 0px;
+}
+
+.allboxes .box3 div {
+    /* background-color: #000; */
+    width: 90%;
+    padding: 0px 10px;
+}
+
+.allboxes .box3 span {
+    font-weight: 500;
+    color: black;
+    font-size: 20px;
+}
+
+.allboxes .box4 {
+    margin: 10px 8px 0px;
+    /* background-color: #a81313; */
+    width: 221px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.allboxes .box4 .icons {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 0px;
+}
+
+.socialmediaIcon {
+    margin-top: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px;
+    width: 30px;
+}
+
+.aboutInBreif {
+    height: 350px;
+    width: 96%;
+    margin: 12vh auto;
+    background-color: #109fb0;
+    border-radius: 15px;
+    padding: 44px;
+    font-size: 45px;
+}
+
+.aboutInBreif p {
+    font-weight: 520;
+    color: white;
+}
+
+.companyLogo {
+    margin-left: -25px;
+    margin-top: 20px;
+}
+
+.companyLogo img {
+    opacity: 60%;
+    height: 80px;
+    width: 80px;
+    margin-left: 25px;
+}
+
+.sectionHead {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 96%;
+    margin: auto;
+}
+
+.sectionHead .leftHeadings {
+    /* background: blue; */
+    width: 20%;
+}
+
+.sectionHead .leftHeadings span {
+    font-weight: 550;
+    font-size: 45px;
+}
+
+.sectionHead .rightHeadings {
+    /* background: #000; */
+    width: 78%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 300px;
+}
+
+.rightHeadings .card {
+    height: 180px;
+    width: 550px;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: white;
+    /* margin: 25px 0px 0px 25px; */
+}
+
+
+.card3 {
+    margin: 0px 20px 0px 0px;
+}
+.card2 {
+    margin: 0px 0px 20px 20px;
+}
+
+.card .icons {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #edeffd;
+    /* display: flex; */
+}
+
+.card .icons img {
+    height: 30px;
+    width: 30px;
+    margin-top: 14px;
+    margin-left: 14px;
+}
+
+#seeAllWork {
+    background: #000;
+    color: white;
+    border-radius: 32px;
+    font-size: 14px;
+    font-weight: 100;
+    padding: 15px 21px;
+    margin-top: 15px;
+    border: none;
+}
+
+.rightHeadings .workPreview {
+    background-color: white;
+    border-radius: 20px;
+    max-height: min-content;
+}
+
+.workCard1 {
+    height: 600px;
+    width: 100%;
+    padding: 20px;
+}
+
+.workCard2 ,.workCard4 {
+    margin: 20px 0px 0px 0px;
+    width: 49%;
+    padding: 20px;
+}
+
+.workCard3 ,.workCard5 {
+    margin: 20px 0px 0px 20px;
+    width: 49%;
+    padding: 20px;
+}
+
+.contactForm {
+    /* background: #000; */
+    width: 51%;
+    margin: auto;
+    margin-top: -40px;
+}
+
+.contactForm input {
+    border: 0;
+    padding: 15px;
+    width: 48.5%;
+    border-radius: 24px;
+}
+
+.contactForm input::placeholder , textarea::placeholder {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 15px;
+}
+
+.contactForm textarea {
+    border: 0;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 24px;
+    height: 250px;
+    width: 100%;
+}
